@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0025)http://cddchina.gitee.io/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="keywords" content="Linux,">
+<meta name="google-site-verification" content="4YzY4fiPap8w_PlbbmxkUHTgQ5TK3p_3gxoTSwfX7hw">
+<link rel="shortcut icon" href="http://cddchina.gitee.io/%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA_files/favicon.ico">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script>
+$(function() {
+ $( "#accordion" ).accordion({
+collapsible: true,
+heightStyle: "content"
+});
+});
+</script>
+<title>网站导航</title>
+<style>
+a:link{color:#000;text-decoration:none}
+a:hover{text-decoration:underline}
+a:visited{text-decoration:none}
+a:active{text-decoration:underline}
+body {font:12px arial,simsun;margin-top:0;text-align:center}
+ul {list-style:none;margin:0;padding:0;}
+ul li {list-style:none}
+td,input,select,textarea {font-size:12px}
+.w {background-color: white;overflow: hidden}
+.l {float: left}
+.r {float: right}
+.c {clear: both}
+.t {height: 1px;width: 4px}
+.o {height: 1px;width: 2px}
+.p {height: 2px;width: 1px}
+.d {padding:2px 10px 5px 10px}
+#main {margin-left: auto;margin-right: auto;width:100%}
+#tt {padding-top:5px}
+#tt td {font-family:simsun,arial;text-align:left;vertical-align:middle}
+#tt td span {font-family:arial,sans-serif;font-size:-1}
+#tt td a {color:#00c;font-family:arial,sans-serif;font-size:-1;text-decoration:underline}
+.a0{float:left;padding-bottom:10px}
+.a6{float:left;width:100%}
+.a8 {float:left;height:920px;margin-left:5px!important;margin-left:3px;padding-top:12px;width:782px}
+.a7container {float:left;position:relative;width:385px}
+.a2 {float:left;height:920px;position:relative;width:385px}
+.b0 {float:left;height:70px;width:977px}
+.b0 a {color:#00f;text-decoration:underline}
+#rc1 {background-color:#c3d9ff;text-align:left;width:977px}
+#rc1 #rd0 {float:left;line-height:18px;margin-top:3px;padding-right:3px}
+#rc1 a:hover {text-decoration:underline}
+#rc1 #rd1 {float:left;line-height:18px;margin-top:5px}
+#rc1 #rd1 a {color:#000}
+#rc1 #rd2 {float:right;line-height:18px;margin-top:3px!important;margin-top:5px;text-align:right}
+#rc1 #rd2 a {color:#000}
+#rc2 {background:#C3D9FF;float:left;margin-left:0px!important;margin-left:3px;width:500px}
+#rc2 a:hover {text-decoration:underline}
+#rc2 span div {font-family:simsun,arial;font-size:14px;font-weight:bold;line-height:24px;text-align:left}
+#rc2 span div a {color:#fff}
+#rc2 div div.w {background:#fff;float:left;margin-left:-18px!important;margin-left:1px;overflow:hidden;text-align:center;width:181px}
+#rc2 div div.b {background:#f2f6fe;float:left;margin-left:-18px!important;margin-left:1px;overflow:hidden;text-align:center;width:181px}
+#rc2 div div div {margin-left:0px}
+#rc2 .b2 a{color:#2152ab}
+#rc2 ul {display:inline}
+#rc2 li {float:left;line-height:24px;text-align:left;width:100%}
+#rc2 li.x {float:left;line-height:24px;text-align:left;width:100%}
+.ui-widget {
+    font-family: arial,simsun;
+    font-size: 1.1em;
+}
+.ui-accordion .ui-accordion-content {
+    border-top: 0 none;
+    overflow: auto;
+    padding: 1em;
+}
+.ui-widget-content {
+    background: url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #99BCFC;
+    color: #222222;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #99BCFC;
+    color: #555555;
+    font-weight: normal;
+    text-align: left;
+}
+#rc3 {background:#99bcfc;float:left;margin-left:5px!important;margin-left:3px;width:782px}
+#rc3 a:hover {text-decoration:underline}
+#rc3 span div {font-family:simsun,arial;font-size:14px;font-weight:bold;line-height:24px;text-align:left}
+#rc3 span div a {color:#fff}
+#rc3 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc3 div div.b {background:#f2f6fe;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc3 div div div {margin-left:10px}
+#rc3 div.more {background:#fff;float:left;line-height:24px;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:right;width:778px}
+#rc3 div.more a {color:#607fbb}
+#rc3 .b2 a{color:#2152ab}
+#rc3 ul {display:inline}
+#rc3 li {float:left;line-height:24px;text-align:left;width:16.6%}
+#rc3 li.x {float:left;line-height:24px;text-align:left;width:33%}
+.b2 {float:left;line-height:20px;margin-bottom:1px;margin-left:4px!important;margin-left:1px;text-align:left;width:100px}
+.b1 {font-size:14px;font-weight:bold}
+.b3 {float:left;font-weight:bold;line-height:24px;margin-left:2px!important;margin-left:1px;text-align:left;width:381px}
+.b4 {background:#fff;float:left;margin-left:2px!important;margin-left:1px;text-align:left;width:381px}
+.b4 div{margin-left:5px}.b4 ul {display:inline}.b4 li {float:left;line-height:24px;text-align:left;width:33.2%}
+.b5 {float:left;line-height:24px;margin-left:2px!important;margin-left:1px;text-align:left;width:381px}
+.b5 div{color:#666;margin-left:5px}
+.b5 a {margin-left:2px!important;margin-left:1px}
+.b6 {background:#fff;float:left;line-height:24px;margin-left:2px!important;margin-left:1px;text-align:right;width:381px}
+.b7 {float:left;font-family:simsun;margin-left:195px!important;margin-left:150px;margin-top:3px;text-align:right;width:80px}
+#rc4 {background:#b3d580;left:0px;position:absolute;top:0px;width:100%}#rc4 a:hover {text-decoration:underline}
+#rc4 .b2 a{color:#2b8100}
+#rc4 .b3{background:#ecf4df;color:#690;font-family:simsun,arial}
+#rc4 .b5 {background:#ecf4df}
+#rc4 .b5 a {color:#690}
+#rc4 .b6 a{color:#690}
+#rc4 .b7 {color:#2b8100}
+#rc4 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc4 div div.b {background:#ecf4df;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc6 {background:#99c9b1;left:0px;position:absolute;top:308px;width:100%}
+#rc6 a:hover {text-decoration:underline}#rc6 .b2 a{color:#366}
+#rc6 .b3{background:#e9f4ed;color:#428080;font-family:simsun,arial}
+#rc6 .b5 {background:#e9f4ed}
+#rc6 .b5 a {color:#428080}
+#rc6 .b6 a{color:#428080}
+#rc6 .b7 {color:#366}
+#rc6 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc6 div div.b {background:#e9f4ed;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc8 {background:#b4a1d8;left:0px;position:absolute;top:616px;width:100%}
+#rc8 a:hover {text-decoration:underline}
+#rc8 .b2 a{color:#644764}
+#rc8 .b3{background:#eeecf6;color:#856885;font-family:simsun,arial}
+#rc8 .b5 {background:#eeecf6}
+#rc8 .b5 a {color:#856885}
+#rc8 .b6 a{color:#856885}
+#rc8 .b7 {color:#644764}
+#rc8 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc8 div div.b {background:#eeecf6;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc5 {background:#f7c480;left:0px;position:absolute;top:0px;width:100%}
+#rc5 a:hover {text-decoration:underline}
+#rc5 .b2 a{color:#c60}
+#rc5 .b3{background:#f9f4e5;color:#c60;font-family:simsun,arial}
+#rc5 .b5 {background:#f9f4e5}
+#rc5 .b5 a {color:#c60}
+#rc5 .b6 a{color:#c60}
+#rc5 .b7 {color:#c60}
+#rc5 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc5 div div.b {background:#f9f4e5;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc7 {background:#d5d588;left:0px;position:absolute;top:308px;width:100%}
+#rc7 a:hover {text-decoration:underline}
+#rc7 .b2 a{color:#88880e}
+#rc7 .b3{background:#f2f2db;color:#88880e;font-family:simsun,arial}
+#rc7 .b5 {background:#f2f2db}
+#rc7 .b5 a {color:#88880e}
+#rc7 .b6 a{color:#88880e}
+#rc7 .b7 {color:#88880e}
+#rc7 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc7 div div.b {background:#f2f2db;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc9 {background:#eea2bb;left:0px;position:absolute;top:616px;width:100%}
+#rc9 a:hover {text-decoration:underline}
+#rc9 .b2 a{color:#9b566d}
+#rc9 .b3{background:#fceef3;color:#9b566d;font-family:simsun,arial}
+#rc9 .b5 {background:#fceef3}
+#rc9 .b5 a {color:#9b566d}
+#rc9 .b6 a{color:#9b566d}
+#rc9 .b7 {color:#9b566d}
+#rc9 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc9 div div.b {background:#fceef3;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:355px}
+#rc10 {background: #c3d9ff;float:left;width:978px}
+#rc10 div {font-family:arial, helvetica, sans-serif}
+#rc10 a {color:#00c}#rc10 a:hover {text-decoration:underline}
+#rc11 {background:#f7db7b;float:left;margin-left:5px!important;margin-left:3px;width:782px}
+#rc11 a:hover {text-decoration:underline}
+#rc11 .b2 a{color:#b36c33}
+#rc11 span div {font-family:simsun,arial;font-size:14px;font-weight:bold;line-height:24px;text-align:left}
+#rc11 span div a {color:#fff}
+#rc11 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc11 div div.b {background:#def1f3;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc11 div div div {margin-left:10px}
+#rc11 div.more {background:#fff;float:left;line-height:24px;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:right;width:778px}
+#rc11 div.more a {color:#9f4c09}
+#rc11 ul {display:inline}
+#rc11 li {float:left;line-height:24px;text-align:left;width:16.6%}
+#rc11 li.x {float:left;line-height:24px;text-align:left;width:33%}
+#rc12 {background:#71c647;float:left;margin-left:5px!important;margin-left:3px;width:782px}
+#rc12 a:hover {text-decoration:underline}
+#rc12 span div {font-family:simsun,arial;font-size:14px;font-weight:bold;line-height:24px;text-align:left}
+#rc12 span div a {color:#fff}
+#rc12 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc12 div div.b {background:#eaf4e6;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc12 div div div {margin-left:10px}
+#rc12 div.more {background:#fff;float:left;line-height:24px;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:right;width:778px}
+#rc12 div.more a {color:#607fbb}
+#rc12 ul {display:inline}
+#rc12 li {float:left;line-height:24px;text-align:left;width:16.6%}
+#rc12 li.x {float:left;line-height:24px;text-align:left;width:33%}
+#rc13 {background:#c9c02b;float:left;margin-left:5px!important;margin-left:3px;width:782px}
+#rc13 a:hover {text-decoration:underline}
+#rc13 span div {font-family:simsun,arial;font-size:14px;font-weight:bold;line-height:24px;text-align:left}
+#rc13 span div a {color:#fff}
+#rc13 div div.w {background:#fff;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc13 div div.b {background:#f3f2dc;float:left;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:center;width:778px}
+#rc13 div div div {margin-left:10px}
+#rc13 div.more {background:#fff;float:left;line-height:24px;margin-left:2px!important;margin-left:1px;overflow:hidden;text-align:right;width:778px}
+#rc13 div.more a {color:#607fbb}
+#rc13 ul {display:inline}
+#rc13 li {float:left;line-height:24px;text-align:left;width:16.6%}
+#rc13 li.x {float:left;line-height:24px;text-align:left;width:33%}
+</style>
+<link rel="stylesheet" type="text/css" href="./网站导航_files/highslide.css">
+<script><!--
+function c(id){
+if(document.images){
+var t=new Date().getTime();
+(new Image()).src="/click/"+id+"/"+t;}
+return true;}
+//--></script>
+</head>
+
+<body>
+
+<script type="text/javascript" src="./网站导航_files/highslide-with-html.js"></script>
+
+<script type="text/javascript">
+    hs.graphicsDir = '/highslide/graphics/';
+    hs.outlineType = 'rounded-white';
+    hs.showCredits = false;
+    hs.wrapperClassName = 'draggable-header';
+</script>
+
+<div>
+
+	<div id="main">
+
+		<!-- head start -->
+		<script defer="defer"><!--
+		function qs(el){if(window.RegExp&&window.encodeURIComponent){var ue=el.href,qe=encodeURIComponent(document.forms[0].q.value);if(ue.indexOf("q=")!=-1){el.href=ue.replace(new RegExp("q=[^&$]*"),"q="+qe);}else{el.href=ue+"&q="+qe;}}return 1;}
+		//--></script>
+		<!-- head end -->
+		
+		<!-- -- body start ---->
+		<div>
+	
+			<!-- left 发行版排行 start -->
+			<div class="a6">	<div class="a0">	<div id="rc2">
+				<div class="w t l"></div><div class="w t r"></div><div class="c"></div><div class="w o l"></div><div class="w o r"></div><div class="c"></div><div class="w p l"></div><div class="w p r"></div><div class="c"></div>
+
+				<!-- left group start -->
+		  	<span><div>&nbsp;软件分类</div></span>
+				<div>	<div>	<div>
+								
+				<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-accordion-accordion-header-0" aria-controls="ui-accordion-accordion-panel-0" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>软件流程图</h3><div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-0" aria-labelledby="ui-accordion-accordion-header-0" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;"><ul>
+<li><a href="http:" target="_blank">Astah</a></li>
+<li><a href="http:" target="_blank">Visio</a></li>
+<li><a href="http:" target="_blank">Rational Rose</a></li>
+
+</ul></div>
+<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-accordion-accordion-header-1" aria-controls="ui-accordion-accordion-panel-1" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>代码对比管理工具</h3><div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-1" aria-labelledby="ui-accordion-accordion-header-1" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;"><ul>
+<li><a href="http:" target="_blank">Beyond Compare</a></li>
+<li><a href="http:" target="_blank">Meld</a></li>
+<li><a href="http:" target="_blank">GitHub</a></li>
+<li><a href="http:" target="_blank">Coding</a></li>
+<li><a href="http:" target="_blank">Gitee</a></li>
+<li><a href="http:" target="_blank">GitLab</a></li>
+<li><a href="http:" target="_blank">SVN</a></li>
+</ul></div>
+<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-2" aria-controls="ui-accordion-accordion-panel-2" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>MarkDown工具</h3><div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-2" aria-labelledby="ui-accordion-accordion-header-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;"><ul>
+<li><a href="http:" target="_blank">Haroopad</a></li>
+</ul></div>
+<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-3" aria-controls="ui-accordion-accordion-panel-3" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>文本或代码编辑器</h3><div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-3" aria-labelledby="ui-accordion-accordion-header-3" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;"><ul>
+<li><a href="http:" target="_blank">PyCharm</a></li>
+<li><a href="http:" target="_blank">sublime</a></li>
+<li><a href="http:" target="_blank">Visual Studio</a></li>
+<li><a href="http:" target="_blank">vi</a></li>
+<li><a href="http:" target="_blank">SourceInsight</a></li>
+<li><a href="http:" target="_blank">QT</a></li>
+<li><a href="http:" target="_blank">Eclipse</a></li>
+<li><a href="http:" target="_blank">Notepad++</a></li>
+</ul></div>
+<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-4" aria-controls="ui-accordion-accordion-panel-4" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>其它工具</h3><div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-4" aria-labelledby="ui-accordion-accordion-header-4" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;"><ul>
+<li><a href="http:" target="_blank">Navicat Premium </a></li>
+<li><a href="http:" target="_blank">AnaConda        </a></li>
+<li><a href="http:" target="_blank">TeamViewer      </a></li>
+<li><a href="http:" target="_blank">Xftp            </a></li>
+<li><a href="http:" target="_blank">Xmanager        </a></li>
+<li><a href="http:" target="_blank">Synergy         </a></li>
+<li><a href="http:" target="_blank">Foxmail         </a></li>
+<li><a href="http:" target="_blank">VirtualBox      </a></li>
+<li><a href="http:" target="_blank">GIMP            </a></li>
+<li><a href="http:" target="_blank">PhotoShop       </a></li>
+<li><a href="http:" target="_blank">IrfanView       </a></li>
+<li><a href="http:" target="_blank">Jabber          </a></li>
+<li><a href="http:" target="_blank">iChat           </a></li>
+<li><a href="http:" target="_blank">Fiddler         </a></li>
+<li><a href="http:" target="_blank">Putty           </a></li>
+<li><a href="http:" target="_blank">SecureCRT       </a></li>
+<li><a href="http:" target="_blank">unity Tweak     </a></li>
+<li><a href="http:" target="_blank">Ranger          </a></li>
+<li><a href="http:" target="_blank">Dock            </a></li>
+
+</ul></div>
+
+</div>
+				
+				</div></div></div>
+				<!-- left group end -->
+
+				<div class="c"></div><div class="w p l"></div><div class="w p r"></div><div class="c"></div><div class="w o l"></div><div class="w o r"></div><div class="c"></div><div class="w t l"></div><div class="w t r"></div>
+			</div></div></div>
+			<!-- left 发行版排行 end -->
+
+		
+
+		
+                        <br>&nbsp;
+
+
+	
+			<br>&nbsp;
+			
+		</div>
+		<!-- body end -->
+		
+	</div>
+	<!-- main end -->
+
+
+
+	</div>
+</div>
+
+<script><!--
+;;var r=null,k=null,m=null,u=0,y=0,w=false,l=0,B=0,h=0,s=0,v=0,H,o=[0,308,616],i=0,f=[0,0,0,0,1,1,2,2,3,3],K=(o[1]-o[0])/2;function d(b){return document.getElementById(b)}function j(b){return(b/2-1)%3*2+4}function F(b,a,c,e){p(d("rc"+a),e);p(d("rc"+b),c);d("rc"+b).style["zIndex"]=9999;d("rc"+a).style["zIndex"]=9998}function p(b,a){var c=b.style;if("opacity"in c){c.opacity=a}else if("MozOpacity"in c){c.MozOpacity=a}else if("KhtmlOpacity"in c){c.KhtmlOpacity=a}else if("filter"in c){c.filter="alpha(opacity="+
+
+a*100+")"}}function G(b){var a=['<span style="cursor:pointer" onclick="_md('];a.push(b);a.push(')">');a.push(d("sd_down").innerHTML);a.push("<b>&darr;</b></span>");d("bt"+b).innerHTML=a.join("")}function x(b){var a=['<span style="cursor:pointer" onclick="_mu('];a.push(b);a.push(')">');a.push(d("sd_up").innerHTML);a.push('<b>&uarr;</b></span><span style="cursor:pointer"onclick="_md(');a.push(b);a.push(')">');a.push(d("sd_down").innerHTML);a.push("<b>&darr;</b></span>");d("bt"+b).innerHTML=a.join("")}
+
+function E(b){var a=['<span style="cursor:pointer" onclick="_mu('];a.push(b);a.push(')">');a.push(d("sd_up").innerHTML);a.push("<b>&uarr;</b></span>");d("bt"+b).innerHTML=a.join("")}function C(b){return parseInt(b.offsetTop,10)}function q(b,a){b.style["top"]=a+"px"}function D(b){if(r!=null){return}var a=f[b],c=a+1,e=j(b),g=f[e]==c?e:j(e);i=0;F(b,g,1,0.6);k=d("rc"+b);m=d("rc"+g);l=o[c-1];B=o[a-1];h=C(k);s=C(m);v=a;u=b;y=g;var t=f[b];f[b]=f[g];f[g]=t;L();var n=32;w=false;H=window.setInterval(I,n);r=
+
+1}function M(b){if(r!=null){return}var a=f[b],c=a-1,e=f[j(b)]==c?j(b):j(j(b));D(e);F(b,e,1,0.6)}function L(){(new Image).src="/?ct=mov&cd="+f.join("")}function I(){if(h<=l){if(h+5+i>=l){q(k,l);q(m,B);p(k,1);p(m,1);window.clearInterval(H);r=null;return}else{i+=2;q(k,h+5+i);q(m,s-5-i);h=h+5+i;s=s-5-i}}if(!w&&h>=l-K){if(v==1){x(u);G(y)}else if(v==2){E(u);x(y)}w=true}}var _md=D,_mu=M,_sp=I;(function(){var b=[G,x,E];for(var a=4;a<10;a++){b[f[a]-1](a)}})();function J(b){return function(){var a=b.id.split(":"),c,e=window.navigator.userAgent.indexOf("MSIE")!=-1;if(a.length==4){var g=window.encodeURIComponent?window.encodeURIComponent:window.escape,t=e?"T":"t";c=["http://www.google.cn/url?sa=",t,"&url=",g(b.href),"&usg=",a[0],"&ct=",a[1],"&cd=",a[2],"&cad=",a[3],"&source=shallowdir"]}else if(a.length==3){c=[b.href,"?ct=",a[0],"&cd=",a[1],"&cad=",a[2]]}var n=c.join("");if(e){(new Image).src=n}else{b.href=n;b.onmousedown=""}return true}}if(document.images){var N=
+
+document.links.length;for(var z=0;z<N;++z){var A=document.links[z];if(A.id){A.onmousedown=J(A)}}};
+
+//--></script>
+</body></html>
